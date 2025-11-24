@@ -6,7 +6,7 @@ const path = require('path');
 
 async function githubCommand(sock, chatId, message) {
   try {
-    const res = await fetch('https://api.github.com/repos/chrisgaaju-coder/Mysterybot-md');
+    const res = await fetch('https://api.github.com/repos/chrisgaaju-coder/Mystery-MD');
     if (!res.ok) throw new Error('Error fetching repository data');
     const json = await res.json();
 
