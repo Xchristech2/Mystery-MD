@@ -160,7 +160,7 @@ async function startXeonBotInc() {
                             forwardingScore: 1,
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
-                                newsletterJid: '120363423095872353@newsletter',
+                                newsletterJid: '120363406735242612@newsletter',
                                 newsletterName: 'MysteryBot MD',
                                 serverMessageId: -1
                             }
@@ -269,7 +269,7 @@ async function startXeonBotInc() {
                         forwardingScore: 1,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterJid: '120363423095872353@newsletter',
+                            newsletterJid: '120363406735242612@newsletter',
                             newsletterName: 'Mystery MD',
                             serverMessageId: -1
                         }
@@ -283,9 +283,9 @@ async function startXeonBotInc() {
             console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || 'MYSTERY BOT'} ]`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
             console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: CHRIS GAAJU TECH`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: chrisgaaju-coder`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: Xchristech2`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} WA NUMBER: ${owner}`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: MR CHRIS GAAJU`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: CHRIS GAAJU`))
             console.log(chalk.green(`${global.themeemoji || '•'} 🤖 Bot Connected Successfully! ✅`))
             console.log(chalk.blue(`Bot Version: ${settings.version}`))
         }
